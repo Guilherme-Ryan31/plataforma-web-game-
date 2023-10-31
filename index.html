@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="img"><!--imagem principal-->
+        <div class="overlay" id="inicio"></div> 
+
+        <div class="logo">
+            <img src="img/Group 4.png" alt="logo" width="200" height="55px">
+        </div>
+
+         <!--barra de busca -->
+        <div class="buscar-box">
+            <div class="lupa-buscar">
+                <div class="input-buscar">
+                    <input type="text" name="" id="" placeholder="Pesquise...">
+                    <i class="bi bi-search"></i>
+                </div>
+            </div>
+        </div>
+        <!-- fim da barra -->
+
+        <!-- nome principal -->
+        <div class="nome">
+            <h1 id="primeiro">Descubra Os Melhores Jogos Da Atualidade</h1>
+            <h2 id="segundo">Leia Sobre Jogos <br> Que Você Goste</h2>
+        </div>
+        <!-- fim do nome -->
+    </section>
+
+    <!--inicio do menu-lateral-->
+    <nav class="menu-lateral">
+        <div class="btn-expandir">
+            <i class="bi bi-list" id="btn-exp"></i>
+        </div><!--btn-expandir-->
+
+        <ul id="menu">
+            <li class="item-menu ativo">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-house"></i></span>
+                    <span class="txt-link">Inicio</span>
+                </a>
+            </li>
+
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-grid"></i></span>
+                    <span class="txt-link">Recomendados</span>
+                </a>
+            </li>
+
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-controller"></i></span>
+                    <span class="txt-link">Jogos</span>
+                </a>
+            </li>
+
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-basket3"></i></span>
+                    <span class="txt-link">Pedidos</span>
+                </a>
+            </li>
+
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-info-circle"></i></i></span>
+                    <span class="txt-link">Informações</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- fim do menu-lateral-->
+
+    <main>
+        <!-- etapa container tendência -->
+        <section class="instancia-1">
+            <div class="container-1">
+                <h1 id="cont1">Jogos e Tentência Atualmente</h1>
+                <div class="flex-principal">
+                    <div class="flex1"> 
+                        <h1>Lançado em 2020, Valorant é um jogo de tiro online e multiplayer no qual dois grupos com cinco jogadores se enfrentam nos diversos mapas de Valorant, inspirados em locais do mundo real. Dependendo do mapa disputado, cada lado da disputa deverá alcançar um objetivo determinado ou impedir o outro lado de conseguir conquistar essa meta.</h1>
+                    </div>
+                    <div class="flex2">
+                        <h1>O título é a sequência do game original Ori and the Blind Forest, lançado em 2015. Neste novo segundo capítulo, os jogadores devem ajudar Ori a encontrar Kun, sua amiga coruja que se perdeu durante um voo. O jogo pertence ao subgênero metroidvania, conhecido pelos mapas extensos em que players devem buscar por novas habilidades, itens e armas no decorrer de suas jornadas.</h1>
+                    </div>
+                    <div class="flex3">
+                        <h1>Dead Cells é um jogo de ação e aventura, disponível no PC, PS4, Xbox One e Nintendo Switch, que remete ao clássico Castlevania, similar às versões lançadas no PS2 e Nintendo DS. O título te coloca para controlar um guerreiro sem nome, formado por células de suas versões mortas anteriormente. O game é repleto de surpresas e lutas difíceis.</h1>
+                    </div>
+                    <div class="flex4">
+                        <h1>Skul: The Hero Slayer é um jogo de plataformas de ação repleto de características roguelike, tais como mapas desafiantes e em mudança constante. Irá manter você alerta pois nunca saberá o que esperar. Skul não é nenhum esqueleto comum. Além de suas habilidades de luta formidáveis, ele pode ganhar habilidades novas e excitantes dependendo da caveira que ele está usando.</h1>
+                    </div>
+                    <div class="flex5">
+                        <h1>Fortnite é um jogo battle royale gratuito da Epic Games, e um dos mais famosos e influentes da indústria. Apesar do gameplay consistir em batalhas rápidas. Crie uma Ilha  com suas próprias regras, jogue com amigos nas Ilhas criadas por você e pela comunidade ou salve o mundo ao enfrentar hordas de monstros em equipe.</h1>
+                    </div>
+                    <div class="flex6">
+                        <h1>A história de Halo Infinite coloca Master Chief para enfrentar os conhecidos inimigos de outrora, como os Banidos. Comandados por Escharrum e Harbinger, sua missão é a mesma das outras aventuras: salvar o mundo das ameaças adversárias. A 343 Industries, lançou seu último jogo, o 'Halo Infinite', em dezembro de 2021.</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim-da-tendência-->
+
+        <!-- inicio da instancia, jogo-->
+        <section class="instancia-2">
+            <div class="container-2">
+                <h1 id="name-2">Jogos</h1>
+                    <div class="back">
+                        <div class="const-1">
+                            <img src="img/celeste.jpg" alt="">
+                            <h2>A trama acompanha a história de Madeline, uma jovem garota que resolveu, em um ato imprudente, escalar até o topo da montanha Celeste apenas para provar para si mesma de que ela era capaz. Ao longo do árduo caminho até o topo, a protagonista descobre que precisa encarar o seu maior inimigo: literalmente ela mesma.</h2>
+                            <input type="button" value="Play" id="btn">
+                        </div>
+                        <div class="const-2">
+                            <img src="img/stardew.avif" alt="">
+                            <h2>Stardew Valley é um jogo de simulação de vida em que os jogadores administram e cultivam sua própria fazenda. O objetivo principal do jogo é restaurar a fazenda do seu avô, que está em mau estado de conservação, e transformá-la em um negócio próspero.</h2>
+                            <input type="button" value="Play" id="btn">
+                        </div>
+                        <div class="const-3"></div>
+                    </div>
+            </div>
+        </section>
+        <!-- fim da instancia, jogo -->
+
+        <!-- section venda -->
+        <section class="instancia-3">
+            <div class="container-3"> 
+                <h1  id="comp">Compras</h1>
+                <div class="bloco-1">
+                    <div class="elemento">
+                        <img src="img/clash.jpg" alt="">
+                         <input type="button" value="1x1" id="tanto">
+                         <p>$50</p>
+                         <input type="button" value="Continue" id="continue">
+                    </div>
+                    <div class="elemento">
+                        <img src="img/pubg.webp" alt="">
+                        <input type="button" value="4x4" id="tanto">
+                        <p>$50</p>
+                         <input type="button" value="Continue" id="continue">
+                    </div>
+                    <div class="elemento">
+                        <img src="img/dota2.webp" alt="">
+                        <input type="button" value="5x5" id="tanto">
+                        <p>$50</p>
+                         <input type="button" value="Continue" id="continue">
+                    </div>
+                </div>
+                <div class="bloco-1">
+                    <div class="elemento">
+                        <img src="img/Counter-Strike.webp" alt="">
+                        <input type="button" value="5x5" id="tanto">
+                        <p>$50</p>
+                         <input type="button" value="Continue" id="continue">
+                    </div>
+                    <div class="elemento">
+                        <img src="img/horizon.jpg" alt="">
+                        <input type="button" value="1x1" id="tanto">
+                        <p>$50</p>
+                         <input type="button" value="Continue" id="continue">
+                    </div>
+                    <div class="elemento">
+                        <img src="img/torchlight III.jpg" alt="">
+                        <input type="button" value="1x1" id="tanto">
+                        <p>$50</p>
+                         <input type="button" value="Continue" id="continue">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim da section venda -->
+        <footer>
+            <div class="container4">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>finegap</h4>
+                        <ul>
+                            <li><a href="">tutoriais</a></li>
+                            <li><a href="">tutoriais</a></li>
+                            <li><a href="">tutoriais</a></li>
+                            <li><a href="">tutoriais</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>finegap</h4>
+                        <ul>
+                            <li><a href="">tutoriais</a></li>
+                            <li><a href="">tutoriais</a></li>
+                            <li><a href="">tutoriais</a></li>
+                            <li><a href="">tutoriais</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>finegap</h4>
+                        <ul>
+                            <li><a href="">tutoriais</a></li>
+                            <li><a href="">tutoriais</a></li>
+                            <li><a href="">tutoriais</a></li>
+                            <li><a href="">tutoriais</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>finegap</h4>
+                        <form action="">
+                            <input type="text" placeholder="your name" class="inputName">
+                            <input type="email"  placeholder="enter company email" class="inputEmail">
+                            <input type="submit" value="submite" class="inputSubmit">
+                        </form>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <p>&#169; 2023 todos os direitos reservados.</p>
+                    </div>
+                    <div class="socialicons">
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="menu.js"></script>
+</body> 
+</html>
