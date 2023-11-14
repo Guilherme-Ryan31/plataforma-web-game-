@@ -167,24 +167,30 @@ section.img{
 
 
 /* estilo do container tendência */
-.container-1{
+.instancia-1{
     background-color: #050218;
-    height: 70vh; 
+    height: 70vh;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 #cont1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     color: #e9693e;
     position: absolute;
     margin-top: 40px;
-    padding-left: 550px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 .flex-principal{
-    margin-left: 80px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
@@ -203,6 +209,9 @@ section.img{
     opacity: 1;    
 }
 .flex1 h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     color: #e9693e;
     font-size: 13px;
     opacity: 0;
@@ -379,22 +388,24 @@ section.img{
 #name-2{
     color: #e9693e;
     position: absolute;
-    margin-left: 700px;
+    margin-left: auto;
     margin-top: 40px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .instancia-2{
     background-color: #1a0b46;
-    height: 130vh;
+    height: 80vh;
 }
 .container-2{
-    display: table;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .back{
     padding-top: 100px;
-    padding-left: 250px;
+    padding-left: auto;
     display: flex;
     flex-direction: column;
 }
@@ -430,6 +441,7 @@ section.img{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
     font-size: 20px;
+    cursor: pointer;
 }
 .elemento input#tanto{
     width: 70px;
@@ -509,7 +521,7 @@ section.img{
 /* inicio da section venda */
 .instancia-3{
     background-color: #050218;
-    height: 110vh;
+    height: 90vh;
 }
 #comp{
     color: #e9693e;
